@@ -1,0 +1,35 @@
+Para criar o ambiente virtual com o nome "venv_comm_viewer":
+python -m venv *\CommProtocolViewer\venv_comm_viewer
+Onde * eh o caminho absoluto ate o diretorio raiz do projeto.
+
+Para ativar o ambiente virtual "venv_comm_viewer":
+.\venv_comm_viewer\Scripts\activate
+Obs: Comando valido no Windows, com o prompt na raiz do projeto: C:\..\..\..\PySide6\CommProtocolViewer>
+
+Para desativar o ambiente virtual atual:
+deactivate
+
+Para atualizar a versao do pip:
+*\CommProtocolViewer\venv_comm_viewer\Scripts\python.exe -m pip install --upgrade pip
+Onde * eh o caminho absoluto ate o diretorio raiz do projeto.
+Obs: Este caso considera que o ambiente virtual se chama: venv_comm_viewer
+
+Para instalar a versao mais recente do PySide6:
+pip install pyside6
+
+Para verificar as dependencias instaladas no ambiente virtual:
+pip list
+Obs: O comando deve ser executado com o ambiente virtual ativado.
+Saida do comando neste projeto:
+Package            Version
+------------------ -------
+pip                23.1.2
+PySide6            6.5.1.1
+PySide6-Addons     6.5.1.1
+PySide6-Essentials 6.5.1.1
+setuptools         65.5.0
+shiboken6          6.5.1.1
+wheel              0.37.1
+
+Para gerar o arquivo requirements.txt com as dependencias instaladas no ambiente virtual:
+pip freeze > requirements.txt

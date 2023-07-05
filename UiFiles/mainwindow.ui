@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="decodificar_QGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>981</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Decodificar</string>
+    </property>
+    <widget class="QLineEdit" name="pacote_para_decodificar_QLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>801</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="decodificar_QPushButton">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>40</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Decodificar</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="pacotes_decodificados_QTableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>961</width>
+       <height>371</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pacote_para_decodificar_QLabel">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>25</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pacote</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="codificar_QGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>981</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Codificar</string>
+    </property>
+    <widget class="QPushButton" name="codificar_QPushButton">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>39</y>
+       <width>151</width>
+       <height>44</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Codificar</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="pacotes_codificados_QTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>961</width>
+       <height>151</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inicializador_1_QLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inicializador_2_QLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>40</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="comando_QLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>40</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="dados_QLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>40</y>
+       <width>441</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="inicializador_1_QLabel">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>25</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Inicializador 1</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="inicializador_2_QLabel">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>25</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Inicializador 2</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="comando_QLabel">
+     <property name="geometry">
+      <rect>
+       <x>251</x>
+       <y>25</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Comando</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dados_QLabel">
+     <property name="geometry">
+      <rect>
+       <x>371</x>
+       <y>25</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Dados</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>267</y>
+      <width>981</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

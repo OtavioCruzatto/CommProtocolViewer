@@ -1,0 +1,16 @@
+Para abrir o Qt Designer pelo terminal:
+pyside6-designer
+
+O arquivo gerado no Qt Designer possui extensao: .ui
+Este arquivo eh um tipo de XML e pode ser convertido para codigo python ou c++ atraves da ferramenta: pyside6-uic
+Este arquivo tambem pode ser carregado diretamente no codigo python atraves de:
+
+Para gerar o codigo python atraves da ferramenta pyside6-uic:
+pyside6-uic .\UiFiles\mainwindow.ui > .\Gui\ui_mainwindow.py
+Obs: Comando executado a partir do diretorio raiz do projeto: C:\..\..\..\PySide6\CommProtocolViewer>
+
+Para importar o codigo python (gerado pela ferramenta) no codigo da aplicacao:
+from Gui.ui_mainwindow import Ui_MainWindow
+
+
+
